@@ -2363,6 +2363,7 @@ input, select, textarea {
 		position: relative;
 	}
 
+
 		.image img {
 			border-radius: 8px;
 			display: block;
@@ -2407,6 +2408,15 @@ input, select, textarea {
 			.image.main img {
 				width: 100%;
 			}
+
+	#skillSection {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap:20px;
+
+		margin-bottom: 8%;
+	}
 
 /* List */
 
