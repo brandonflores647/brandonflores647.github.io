@@ -2309,6 +2309,9 @@ input, select, textarea {
 			.icon.major:before {
 				font-size: 5.5rem;
 			}
+			.frontPageImg {
+				width: 340px !important;
+			}
 
 		}
 
@@ -2317,7 +2320,15 @@ input, select, textarea {
 			.icon.major:before {
 				font-size: 4.75rem;
 			}
+			.frontPageImg {
+				width: 300px !important;
+			}
 
+		}
+		@media screen and (max-width: 1070px) {
+			.frontPageImg {
+				width: 280px !important;
+			}
 		}
 
 		@media screen and (max-width: 736px) {
@@ -2346,6 +2357,23 @@ input, select, textarea {
 		color: #ffffff;
 	}
 
+	.githubAnchor {
+		position: absolute;
+		margin-left: 15px;
+		border: none;
+	}
+	.githubAnchor:hover .projGithub {
+		background-color: #f1f1f1;
+	}
+	.projGithub {
+		padding: 5px 9px;
+
+		border: 1px solid #dddddd;
+		border-radius: 50px;
+		font-size: 25px;
+		text-align: center;
+	}
+
 		.icon.alt:hover {
 			background-color: rgba(255, 255, 255, 0.075);
 		}
@@ -2363,6 +2391,15 @@ input, select, textarea {
 		position: relative;
 	}
 
+	.imgAnchor {
+		border-bottom: none;
+	}
+	.imgAnchor > img {
+		transition: box-shadow .1s ease;
+	}
+	.imgAnchor:hover > img {
+		box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+	}
 
 		.image img {
 			border-radius: 8px;
