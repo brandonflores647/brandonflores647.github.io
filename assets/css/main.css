@@ -2455,6 +2455,40 @@ input, select, textarea {
 		margin-bottom: 8%;
 	}
 
+	.getInTouch {
+		display: flex;
+		width: 100%;
+		justify-content: space-between;
+	}
+	#getInTouchH2 {
+		margin: 0;
+	}
+	#getInTouchH2 h2:after {
+		width: 100% !important;
+	}
+
+	.contactForm {
+		width: 60%;
+	}
+	.contactForm > label {
+		text-align: left;
+	}
+
+	#contactTA {
+		min-width: 100%;
+		max-width: 100%;
+	}
+
+	#contactButtonSection {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.contactButton {
+		font-size: 18px;
+	}
+
 	.frontPageImg {
 		width: 400px;
 
